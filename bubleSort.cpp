@@ -6,6 +6,8 @@ int main(){
 
     int largoDelArray = 5;
     int array[largoDelArray];
+    ///string array[largoDelArray], para los nombres
+
     ///Asi ingresamos elemnetos a un array
     cout << "Ingrese los numeros del array " << endl;
     for(int i = 0; i < largoDelArray; i++){
@@ -27,6 +29,7 @@ int main(){
             if(array[j] > array[j + 1]){
                 ///aca van a pasar los intercambios
                 int aux = array[j];
+                ///string aux = array[j]:
                 array[j] = array[j + 1];
                 array[j + 1] = aux;
             }
